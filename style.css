@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-display: swap;
+    
+}
+
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    
+}
+.search-input{
+    border-color: rgb(15, 15, 15);
+    border: 1px solid;
+    width:300px;
+    height: 35px;
+    border-radius: 24px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.search-icon{
+    padding-left: 10px;
+    
+}
+.input1{
+   margin-top: 3px;
+   width:86%;
+   border: transparent;
+   height: 28px;
+   
+}
+nav a{
+    margin-right: 30px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-size: 14px;
+   
+}
+.nav-linkactive{
+    color: #037048;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-size: 14px;
+    border-bottom: 2px solid #006241;
+    text-decoration: none;
+    
+    
+    
+}
+.dashboard{
+    width: 100%;
+    height:80px;
+    display: block;
+    background-color: #1e3932;
+   
+}
+
+.card{
+    background-color:#57a98e;
+}
+.cup{
+    height: 100px;
+    width: 100px;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.img2{
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+}
+.imgdiv{
+    width: 20%;
+    height: 80px;
+    float: left;
+}
+.details{
+    width: 80%;
+    height:80px ;
+    float: left;
+    padding-left: 10px;
+}
+.main{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(218, 218, 218);
+}
+.col-md-3{
+    margin: 40px 40px 40px 60px;
+    border-radius: 12px;
+    box-shadow: inset;
+
+}
+.new{
+    background-color: #198754;
+}
+.main1{
+    width: 100%;
+    height: 700px;
+    
+    background-color: #e3e3e3;
+}
+.footer-md-screen {
+    padding: 8em 2em 2em;
+    background-color: #0e382c;
+    color: #bbb;
+    
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.footer-md-screen.list-unstyledli a {
+    font-weight: 400;
+    font-size: .875em;
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+  .container-fluid{
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .barista-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.barista-icon img{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    float: left;
+}
+
+.card-barista{
+    width: 350px;
+    height: 125px;
+    padding: 1em 1.5em;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    border-radius: 8px;
+    background: #fff;
+}
+.barista-details{
+    width: 279px;
+    height: 92px;
+    margin-left: 95px;
+}
+.barista-details h3{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+
+}
+.barista-details h5{
+    color: #00000061;
+    font-size: 8px;
+    font-family: Pike_Regular, Helvetica, sans-serif !important;
+    margin-top: 5px;
+    letter-spacing: -0.6px;
+}
+
+.barista-price{
+    display: flex;
+    justify-content: space-between;
+}
+.barista-price button{
+    background-color: #00754a;
+    width: 96px;
+    height: 32px;
+    box-shadow: 0 4px 15px #a3a3a3ad;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.barista-price>button:hover{
+    background-color: #003203;
+}
+.barista-price p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+p span{
+    font-size: 12px !important;
+    
+} 
+@media (min-width: 768px) and (orientation: landscape) {
+    .container {
+      font-size: 1.5rem;
+    }
+  }
+  
+    
+
+
